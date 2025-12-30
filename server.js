@@ -45,9 +45,9 @@ mongoose
   .then(() => console.log("MongoDB muvaffaqiyatli ulandi"))
   .catch((err) => console.error("MongoDB ulanish xatosi:", err));
 
-// JWT secret
 const JWT_SECRET =
   process.env.JWT_SECRET || "super-secret-key-uzoq-va-xavfsiz-2025";
+  
 
 // === USER SCHEMA ===
 const UserSchema = new mongoose.Schema({
